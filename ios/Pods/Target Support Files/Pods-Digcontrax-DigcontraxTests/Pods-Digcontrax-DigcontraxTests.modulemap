@@ -1,0 +1,6 @@
+module Pods_Digcontrax_DigcontraxTests {
+  umbrella header "Pods-Digcontrax-DigcontraxTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

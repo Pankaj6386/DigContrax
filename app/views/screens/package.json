@@ -1,0 +1,9 @@
+{
+	"name": "screens",
+	"version": "1.0.0",
+	"main": "index.js",
+	"author": {
+		"name": "ashok",
+		"email": "ashok.staplelogic@gmail.com"
+	}
+}
