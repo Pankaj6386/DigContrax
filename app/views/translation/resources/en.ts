@@ -168,18 +168,6 @@ export default {
 'Approximate Location':'Approximate Location',
 'Above/Below Ground':'Above/Below Ground',
 'Did the Incident Cause a Shutdown':'Did the Incident Cause a Shutdown',
-
-
-
-
-
-
-
-
-
-
-
-
  'Description of the Incident':'Description of the Incident',
  'Next':'Next',
  'UTILITY DAMAGE INFORMATION':'UTILITY DAMAGE INFORMATION',
@@ -214,6 +202,17 @@ export default {
  'To report an incident or damage on the job site, please call':'To report an incident or damage on the job site, please call',
  'and provide this number':'and provide this number',
 'START':'START',
+
+
+
+'CHANGE PASSWORD':'CHANGE PASSWORD',
+'Current Password':'Current Password',
+'New Password':'New Password',
+'Confirm New Password':'Confirm New Password',
+'UPDATE PASSWORD':'UPDATE PASSWORD',
+'SHOW MAP':'SHOW MAP'
+
+
  
 
 

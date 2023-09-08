@@ -50,6 +50,8 @@ import Content from '../../components/Content';
 import {withTranslation} from 'react-i18next';
 import '../../translation';
 
+import { _retrieveLanguage } from '../../../assets/config/helper';
+
 const app_version = config?.app_version;
 
 class Manage extends Component {

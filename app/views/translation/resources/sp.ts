@@ -245,20 +245,6 @@ export default
   'Approximate Location':'Ubicación Aproximada',
   'Above/Below Ground':'Arriba/Abajo del Suelo',
   'Did the Incident Cause a Shutdown':'¿El Incidente Causó un Cierre?',
-
-
-
-
-
-
-
-
-
-
-
-
-
-
   'Description of the Incident': 'Descripción del Incidente',
   'Next': 'Siguiente',
   'UTILITY DAMAGE INFORMATION': 'INFORMACIÓN DE DAÑOS A SERVICIOS PÚBLICOS',
@@ -293,7 +279,14 @@ export default
   'To report an incident or damage on the job site, please call': 'Para reportar un incidente o daño en el sitio de trabajo, por favor llame',
   'and provide this number': 'y proporcione este número',
   'START':'COMENZAR',
-  'TICKET':'BOLETO'
+  'TICKET':'BOLETO', 
+
+'SHOW MAP':'MOSTRAR MAPA',
+  'CHANGE PASSWORD':'CAMBIAR CONTRASEÑA',
+'Current Password':'Contraseña Actual',
+'New Password':'Nueva Contraseña',
+'Confirm New Password':'Confirmar Nueva Contraseña',
+'UPDATE PASSWORD':'ACTUALIZAR CONTRASEÑA',
 }
 
 

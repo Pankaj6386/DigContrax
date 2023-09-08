@@ -8,7 +8,7 @@ import {image} from 'assets';
 import SideMenu from './SideMenu';
 import Welcome from './Welcome';
 import { Home, Login, Register, Account, Manage, Eticketsuccess, TicketDetail, Notification, Support, ForgotPassword, Contact, SupportFaq, SupportLaws, SupportTraining, AddTicket, ChangePassword } from './screens';
-
+import {withTranslation,useTranslation} from 'react-i18next';
 const SplashStack = createNativeStackNavigator();
 
 const Splash = () => {
@@ -88,11 +88,12 @@ const support = () => {
 };
 
 const CustomTabBar = ({...props}) => {   
+  const { t } = useTranslation();
 	let navigation = props.navigation;
 	let iconsa = ['homeActive',	'usericonActive','manageActive', 'notificationActive', 'supportActive'	];
 	let icons = ['manage', 'usericon', 'notification', 'support'	];
 	// let titles = [ 'Manage', 'Add', 'Notifications', 'Support' ];	
-  let titles = [ 'Manage', 'Account', 'Notifications', 'Support' ];	
+  let titles = [`${t('Manage')}`, `${t('Account')}`, `${t('Notifications')}`,`${t('Manage')}` ];	
 	const { routes, index } = props.state;
 	console.log("routes >> ", routes)
 	return (
@@ -102,7 +103,7 @@ const CustomTabBar = ({...props}) => {
 				{routes.map((route, idx) => {
                const color = (index === idx) ? '#FFBC42' : 'gray';
 					const isActive = index === idx;
-          console.log('Anuj',route.name)
+          console.log('Anuj-------',route.name)
 					if(idx < 4)
 					{
             // if(titles[idx] != "Add"){

@@ -19,6 +19,15 @@ export async function _retrieveUser() {
 	}
 }
 
+export async function _retrieveLanguage() {
+	try {
+		const value = await AsyncStorage.getItem('@SelectLanguage');
+		return value
+	} catch (error) {
+		return false;
+	}
+}
+
 export async function _updateTermsAccepted() {
 	try {
 		const user = await AsyncStorage.getItem('@DigContrax:sQd!@_loginInfo');

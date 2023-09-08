@@ -202,6 +202,7 @@ class Common extends Component {
     //console.log(navState);
   };
   renderMapModal() {
+    console.log('map url link -----',this.state.excavationAreaInfo.map_link)
     return (
       <View style={[styless.ModalInsideView, {width: '100%', height: 630}]}>
         {this.state.showmap == 0 && (
@@ -214,11 +215,14 @@ class Common extends Component {
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-            <H2 style={{fontFamily: 'RacingSansOne-Regular'}}>SHOW MAP</H2>
+            <H2 style={{fontFamily: 'RacingSansOne-Regular'}}>{this.props?.t('SHOW MAP')}</H2>
           </View>
         )}
+
         <WebView
           source={{uri: this.state.excavationAreaInfo.map_link}}
+          mixedContentMode={Platform.OS==='android'?"always":null} //add new props when map not show in android
+          originWhitelist={['*']}
           startInLoadingState={true}
           javaScriptEnabled={true}
           scalesPageToFit={true}
@@ -227,7 +231,24 @@ class Common extends Component {
           bounces={true}
           allowUniversalAccessFromFileURLs={true}
           onNavigationStateChange={this.onNavigationStateChange}
+
+          
+
+domStorageEnabled={true}
         />
+        
+        {/* <WebView
+          source={{uri: this.state.excavationAreaInfo.map_link}}
+          mixedContentMode={Platform.OS==='android'?"compatibility":null} //add new props when map not show in android
+          startInLoadingState={true}
+          javaScriptEnabled={true}
+          scalesPageToFit={true}
+          injectedJavaScript={`const meta = document.createElement('meta'); meta.setAttribute('content', 'width=640'); meta.setAttribute('name', 'viewport'); document.getElementsByTagName('head')[0].appendChild(meta);`}
+          scrollEnabled={true}
+          bounces={true}
+          allowUniversalAccessFromFileURLs={true}
+          onNavigationStateChange={this.onNavigationStateChange}
+        /> */}
         <TouchableOpacity
           style={{
             position: 'absolute',
@@ -250,7 +271,7 @@ class Common extends Component {
               fontFamily: 'OpenSans-Bold',
               color: '#fff',
             }}>
-            Close
+            {this.props?.t('Close')}
           </Text>
         </TouchableOpacity>
       </View>

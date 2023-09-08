@@ -10,6 +10,7 @@ import {
   TouchableOpacity,
   Linking,
   Dimensions,
+  AsyncStorage
 } from 'react-native';
 import {
   Container,
@@ -69,8 +70,9 @@ export default class Login extends Component {
     };
   }
 
-  componentDidMount() {
+  async componentDidMount() {
     this.mounted = true;
+    await AsyncStorage.setItem('addLangtype','en')
   }
 
   componentWillUnmount() {
@@ -89,7 +91,7 @@ export default class Login extends Component {
       body: data,
     })
       .then(response => {
-        console.log(response);
+        console.log('--------login api ----',JSON.stringify(response));
         return response.json();
       })
       .then(res => {
