@@ -27,7 +27,7 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 class SideMenu extends Component {
   constructor(props) {
     super(props);
-    this.state = {modalVisible: false, isChecked: null,};
+    this.state = {modalVisible: false, isChecked: null,langOption:0};
   }
 
   async componentDidMount(){		
@@ -37,6 +37,15 @@ class SideMenu extends Component {
 			// Use the retrieved language as the initial app language.
 			this.setState({isChecked:language})
 		  });
+
+
+      await AsyncStorage.getItem('multi_lang').then((type) => {
+        console.log(type,"----1- tttttttttyyyyyyyyyppppppppeeeeeee")
+        // Use the retrieved language as the initial app language.
+        // i18n.changeLanguage(language);
+        this.setState({langOption:type})
+        });
+
 	}
 
   navigateToScreen = route => () => {
@@ -271,10 +280,10 @@ class SideMenu extends Component {
               </TouchableOpacity>
             </View>
             <View style={styles.screenStyle}>
-              <TouchableOpacity
+            {this.state.langOption==1 &&  <TouchableOpacity
                 onPress={() => this.setModalVisible(!this.state.modalVisible)}>
                 <Text style={styles.btext}>{t('Change Language')}</Text>
-              </TouchableOpacity>
+              </TouchableOpacity>}
               <View style={styles.MainContainer}>
                 <Modal
                   animationType="slide"
@@ -288,7 +297,6 @@ class SideMenu extends Component {
                       alignItems: 'center',
                       backgroundColor: 'rgba(0,0,0,0.5)',
                     }}>
-
                     {this.renderModal()}
                   </View>
                 </Modal>

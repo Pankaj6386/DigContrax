@@ -1,0 +1,514 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+MERGED from [:react-native-community_datetimepicker] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-community_geolocation] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-community_masked-view] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-document-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fast-image] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-fs] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-gesture-handler] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-33:12
+MERGED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-12:12
+MERGED from [:react-native-safe-area-context] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-screens] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-vector-icons] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-21:12
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-45:12
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/pankajstaple/.gradle/caches/transforms-3/c6081e4f4cc9e3cd476cd36c7ec18588/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ef2b93c675ba1471d4243800e9644c06/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [org.webkit:android-jsc:r250230] /Users/pankajstaple/.gradle/caches/transforms-3/bf452842d21a0c88f0eff07230d920df/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:2:1-11:12
+MERGED from [:react-native-image-resizer] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:2:1-9:12
+MERGED from [:react-native-reanimated] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-reanimated/android/build/.transforms/5f6b68067ac7ea08affa1509fc4d49d7/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/22a5b68ce7895e517706683645ccd683/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8b092005580d577ed666dd074af122d9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/1e590453c93a00ca715587f445dabcd9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/15e5d3f3ead4bd6fcf5e4025176476f9/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/246b44a1c877ff216bc2976554d1af53/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8f0b5963aeb2e4653c28e3fa1757194c/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2923f07a27173b925d8ac9fab9da811/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/6c5fee0ce4e1f0e0860fc72a449b1277/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c54ce6f85856a0cb48936eef4925a8b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/f8ae3d9b30cdee980eac23af809fedf8/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/51de0e3324c4758385bc110d32db7abf/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/pankajstaple/.gradle/caches/transforms-3/77561f5b8ec965431ccb841e0a79a822/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ce54f6433be9d536af4ee43cf71baa56/transformed/material-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/7bca0a7f04c7233ff7e4597c3afc3b21/transformed/appcompat-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3dd0aa55de26c562cfad7dd831a76a65/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/0501cb68a5b7bf220f06bee2a07cbb24/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/73e7790ac7a5b48bc30f1bf5b114ecf6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/c7f8c08d76eeeba0755f9a5b1562d73a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pankajstaple/.gradle/caches/transforms-3/688b15860ffea753c7c04d29e889191a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:2:1-13:12
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:2:1-16:12
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/a3f4638695f2fa8a232a5219c313c76f/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/f621ad60cc5a965975520b874e93d10f/transformed/jetified-glide-4.12.0/AndroidManifest.xml:2:1-12:12
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pankajstaple/.gradle/caches/transforms-3/0f79ef2c3f67df64f1c70e49b74426f3/transformed/exifinterface-1.3.2/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:17:1-38:12
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da5416569fe8541f1d1b5a994592badd/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d32765ff457ea082e61561db1c579e35/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/6b8efd99aec9ad2fc14bd960fa4871ce/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:17:1-28:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/95cf29c2292bd07e672409f61c412227/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/pankajstaple/.gradle/caches/transforms-3/63b4a66e9e9fd6c0cd6eda6118fdb22b/transformed/fragment-1.2.1/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/729ca56f2914e52693b73b7e5f91c903/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/pankajstaple/.gradle/caches/transforms-3/1b0f7fef4d912967a5d59f49321faf17/transformed/webkit-1.4.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/3071d9b3e05ecc29bd9f1338b970310b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2166acbf51ed3399809e7f5f53ec78f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/8a63966a7465a4c3e5c84e86d653bf18/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/674a5d32f20bdf8e50da5d99de1b0fa4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/3706ecd4ccbb63020aedd926afc74967/transformed/viewpager-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d0c218d52e90c135e4a6e52ead306dd4/transformed/loader-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3bf1dae8655b1db0d37358a5cb7ee333/transformed/jetified-activity-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/28310510f55c73c1fa9e04b7f79c982a/transformed/recyclerview-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c3ef82ce5fc7b0977a0449d9efc5bb1/transformed/customview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4318aa36d86b78c2cff8e125342caf4a/transformed/transition-1.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/aecec42b52e7643eb772dddacd0b2436/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/a4b39b16ad7fcec7852846f088f63c38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b3002119f1279b1d6372aa3e8832be5b/transformed/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajstaple/.gradle/caches/transforms-3/205e8faca1e5832cd2cba9c483017bff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/b82c660d9ad1784a1567e2cd2c5b6c81/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4ef44362ac2ad0256baa36e70283e0b5/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/1f26345fa989bd68ec7de7fd9e232438/transformed/cardview-1.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/79bcdb6f1c544967f6c1e2f1be89056f/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/16b3473cd7afec2685b03dd2cb29a408/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/08e0309413e09ab6f72932e1913a6a78/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/aded14c334417e88330f752497179630/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/c87b12988b1fa6dc93d4ece4643224f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:2:1-13:12
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/dc49f6ca4b0d1c6236fdff7c7188f31a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/2a2e89481faba433107fb1bdea86de0d/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:17:1-24:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+	package
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:2:3-27
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:1-35:12
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:1:11-69
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:4:5-67
+MERGED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-67
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:4:22-64
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:5:5-79
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:7:5-80
+MERGED from [:react-native-fs] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-fs] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-81
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:15:5-81
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:31:5-81
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:8:5-79
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:8:22-77
+application
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:9:5-34:19
+MERGED from [:react-native-community_datetimepicker] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-community_datetimepicker] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-20
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:17:5-31:19
+MERGED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-19:19
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:33:5-43:19
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/pankajstaple/.gradle/caches/transforms-3/c6081e4f4cc9e3cd476cd36c7ec18588/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/pankajstaple/.gradle/caches/transforms-3/c6081e4f4cc9e3cd476cd36c7ec18588/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ce54f6433be9d536af4ee43cf71baa56/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ce54f6433be9d536af4ee43cf71baa56/transformed/material-1.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pankajstaple/.gradle/caches/transforms-3/688b15860ffea753c7c04d29e889191a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pankajstaple/.gradle/caches/transforms-3/688b15860ffea753c7c04d29e889191a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:11:5-20
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:10:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/f621ad60cc5a965975520b874e93d10f/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/f621ad60cc5a965975520b874e93d10f/transformed/jetified-glide-4.12.0/AndroidManifest.xml:10:5-20
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:30:5-36:19
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da5416569fe8541f1d1b5a994592badd/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da5416569fe8541f1d1b5a994592badd/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d32765ff457ea082e61561db1c579e35/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d32765ff457ea082e61561db1c579e35/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/6b8efd99aec9ad2fc14bd960fa4871ce/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/6b8efd99aec9ad2fc14bd960fa4871ce/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/3071d9b3e05ecc29bd9f1338b970310b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/3071d9b3e05ecc29bd9f1338b970310b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajstaple/.gradle/caches/transforms-3/205e8faca1e5832cd2cba9c483017bff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajstaple/.gradle/caches/transforms-3/205e8faca1e5832cd2cba9c483017bff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:24:5-25:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:7:5-11:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:11:7-39
+	android:roundIcon
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:13:7-52
+	android:icon
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:12:7-41
+	android:allowBackup
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:14:7-34
+	android:theme
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:15:7-38
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:10:7-38
+activity#com.digcontrax.MainActivity
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:16:7-27:18
+	android:label
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:18:9-41
+	android:launchMode
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:20:9-40
+	android:windowSoftInputMode
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:21:9-51
+	android:exported
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:22:9-32
+	android:configChanges
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:19:9-118
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:17:9-37
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:23:9-26:25
+action#android.intent.action.MAIN
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:24:13-65
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:24:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:25:13-73
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:25:23-70
+activity#com.facebook.react.devsupport.DevSettingsActivity
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:28:7-84
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:28:17-81
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:30:7-31:111
+	android:value
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:31:54-109
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:31:8-53
+uses-library#org.apache.http.legacy
+ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:33:8-86
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+	android:required
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:33:60-84
+	android:name
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml:33:22-59
+uses-sdk
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-community_datetimepicker] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_datetimepicker] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/datetimepicker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_geolocation] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/geolocation/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-community_masked-view] /Users/pankajstaple/Desktop/DigContrax/node_modules/@react-native-community/masked-view/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-document-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-document-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fast-image] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fast-image/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-fs] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-fs/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-gesture-handler] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-gesture-handler/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-safe-area-context] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-safe-area-context/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-screens] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-screens/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-vector-icons] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-vector-icons/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/pankajstaple/.gradle/caches/transforms-3/c6081e4f4cc9e3cd476cd36c7ec18588/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.react:react-native:0.68.1] /Users/pankajstaple/.gradle/caches/transforms-3/c6081e4f4cc9e3cd476cd36c7ec18588/transformed/jetified-react-native-0.68.1/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ef2b93c675ba1471d4243800e9644c06/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ef2b93c675ba1471d4243800e9644c06/transformed/swiperefreshlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/pankajstaple/.gradle/caches/transforms-3/bf452842d21a0c88f0eff07230d920df/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [org.webkit:android-jsc:r250230] /Users/pankajstaple/.gradle/caches/transforms-3/bf452842d21a0c88f0eff07230d920df/transformed/jetified-android-jsc-r250230/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-image-resizer] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-image-resizer] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-resizer/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-reanimated/android/build/.transforms/5f6b68067ac7ea08affa1509fc4d49d7/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [:react-native-reanimated] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-reanimated/android/build/.transforms/5f6b68067ac7ea08affa1509fc4d49d7/transformed/jetified-react-native-reanimated-67-jsc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/22a5b68ce7895e517706683645ccd683/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fresco:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/22a5b68ce7895e517706683645ccd683/transformed/jetified-fresco-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8b092005580d577ed666dd074af122d9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-okhttp3:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8b092005580d577ed666dd074af122d9/transformed/jetified-imagepipeline-okhttp3-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/1e590453c93a00ca715587f445dabcd9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:drawee:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/1e590453c93a00ca715587f445dabcd9/transformed/jetified-drawee-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/15e5d3f3ead4bd6fcf5e4025176476f9/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagefilters:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/15e5d3f3ead4bd6fcf5e4025176476f9/transformed/jetified-nativeimagefilters-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/246b44a1c877ff216bc2976554d1af53/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/246b44a1c877ff216bc2976554d1af53/transformed/jetified-memory-type-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8f0b5963aeb2e4653c28e3fa1757194c/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-java:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/8f0b5963aeb2e4653c28e3fa1757194c/transformed/jetified-memory-type-java-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2923f07a27173b925d8ac9fab9da811/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-native:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2923f07a27173b925d8ac9fab9da811/transformed/jetified-imagepipeline-native-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/6c5fee0ce4e1f0e0860fc72a449b1277/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:memory-type-ashmem:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/6c5fee0ce4e1f0e0860fc72a449b1277/transformed/jetified-memory-type-ashmem-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c54ce6f85856a0cb48936eef4925a8b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c54ce6f85856a0cb48936eef4925a8b/transformed/jetified-imagepipeline-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/f8ae3d9b30cdee980eac23af809fedf8/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:nativeimagetranscoder:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/f8ae3d9b30cdee980eac23af809fedf8/transformed/jetified-nativeimagetranscoder-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/51de0e3324c4758385bc110d32db7abf/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:imagepipeline-base:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/51de0e3324c4758385bc110d32db7abf/transformed/jetified-imagepipeline-base-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/pankajstaple/.gradle/caches/transforms-3/77561f5b8ec965431ccb841e0a79a822/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.yalantis:ucrop:2.2.6-native] /Users/pankajstaple/.gradle/caches/transforms-3/77561f5b8ec965431ccb841e0a79a822/transformed/jetified-ucrop-2.2.6-native/AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ce54f6433be9d536af4ee43cf71baa56/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/ce54f6433be9d536af4ee43cf71baa56/transformed/material-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/7bca0a7f04c7233ff7e4597c3afc3b21/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/7bca0a7f04c7233ff7e4597c3afc3b21/transformed/appcompat-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3dd0aa55de26c562cfad7dd831a76a65/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.autofill:autofill:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3dd0aa55de26c562cfad7dd831a76a65/transformed/jetified-autofill-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/0501cb68a5b7bf220f06bee2a07cbb24/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:middleware:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/0501cb68a5b7bf220f06bee2a07cbb24/transformed/jetified-middleware-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/73e7790ac7a5b48bc30f1bf5b114ecf6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:ui-common:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/73e7790ac7a5b48bc30f1bf5b114ecf6/transformed/jetified-ui-common-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/c7f8c08d76eeeba0755f9a5b1562d73a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:soloader:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/c7f8c08d76eeeba0755f9a5b1562d73a/transformed/jetified-soloader-2.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pankajstaple/.gradle/caches/transforms-3/688b15860ffea753c7c04d29e889191a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.facebook.soloader:soloader:0.10.3] /Users/pankajstaple/.gradle/caches/transforms-3/688b15860ffea753c7c04d29e889191a/transformed/jetified-soloader-0.10.3/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/a3f4638695f2fa8a232a5219c313c76f/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/a3f4638695f2fa8a232a5219c313c76f/transformed/jetified-core-ktx-1.6.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/f621ad60cc5a965975520b874e93d10f/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/f621ad60cc5a965975520b874e93d10f/transformed/jetified-glide-4.12.0/AndroidManifest.xml:6:5-8:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pankajstaple/.gradle/caches/transforms-3/0f79ef2c3f67df64f1c70e49b74426f3/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.exifinterface:exifinterface:1.3.2] /Users/pankajstaple/.gradle/caches/transforms-3/0f79ef2c3f67df64f1c70e49b74426f3/transformed/exifinterface-1.3.2/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da5416569fe8541f1d1b5a994592badd/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da5416569fe8541f1d1b5a994592badd/transformed/jetified-play-services-location-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d32765ff457ea082e61561db1c579e35/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d32765ff457ea082e61561db1c579e35/transformed/jetified-play-services-tasks-17.0.0/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/6b8efd99aec9ad2fc14bd960fa4871ce/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/6b8efd99aec9ad2fc14bd960fa4871ce/transformed/jetified-play-services-places-placereport-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/95cf29c2292bd07e672409f61c412227/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/95cf29c2292bd07e672409f61c412227/transformed/jetified-viewpager2-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/pankajstaple/.gradle/caches/transforms-3/63b4a66e9e9fd6c0cd6eda6118fdb22b/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.2.1] /Users/pankajstaple/.gradle/caches/transforms-3/63b4a66e9e9fd6c0cd6eda6118fdb22b/transformed/fragment-1.2.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/729ca56f2914e52693b73b7e5f91c903/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/729ca56f2914e52693b73b7e5f91c903/transformed/coordinatorlayout-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/pankajstaple/.gradle/caches/transforms-3/1b0f7fef4d912967a5d59f49321faf17/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.webkit:webkit:1.4.0] /Users/pankajstaple/.gradle/caches/transforms-3/1b0f7fef4d912967a5d59f49321faf17/transformed/webkit-1.4.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/3071d9b3e05ecc29bd9f1338b970310b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/3071d9b3e05ecc29bd9f1338b970310b/transformed/jetified-gifdecoder-4.12.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2166acbf51ed3399809e7f5f53ec78f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b2166acbf51ed3399809e7f5f53ec78f/transformed/cursoradapter-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/8a63966a7465a4c3e5c84e86d653bf18/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/8a63966a7465a4c3e5c84e86d653bf18/transformed/jetified-appcompat-resources-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/674a5d32f20bdf8e50da5d99de1b0fa4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/674a5d32f20bdf8e50da5d99de1b0fa4/transformed/drawerlayout-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/3706ecd4ccbb63020aedd926afc74967/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/3706ecd4ccbb63020aedd926afc74967/transformed/viewpager-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d0c218d52e90c135e4a6e52ead306dd4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/d0c218d52e90c135e4a6e52ead306dd4/transformed/loader-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3bf1dae8655b1db0d37358a5cb7ee333/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/3bf1dae8655b1db0d37358a5cb7ee333/transformed/jetified-activity-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/28310510f55c73c1fa9e04b7f79c982a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/28310510f55c73c1fa9e04b7f79c982a/transformed/recyclerview-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c3ef82ce5fc7b0977a0449d9efc5bb1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/2c3ef82ce5fc7b0977a0449d9efc5bb1/transformed/customview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4318aa36d86b78c2cff8e125342caf4a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4318aa36d86b78c2cff8e125342caf4a/transformed/transition-1.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/aecec42b52e7643eb772dddacd0b2436/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/aecec42b52e7643eb772dddacd0b2436/transformed/vectordrawable-animated-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/a4b39b16ad7fcec7852846f088f63c38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/a4b39b16ad7fcec7852846f088f63c38/transformed/vectordrawable-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] /Users/pankajstaple/.gradle/caches/transforms-3/fc04483ac77131994cd948df4963b204/transformed/core-1.6.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b3002119f1279b1d6372aa3e8832be5b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/b3002119f1279b1d6372aa3e8832be5b/transformed/interpolator-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajstaple/.gradle/caches/transforms-3/205e8faca1e5832cd2cba9c483017bff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/pankajstaple/.gradle/caches/transforms-3/205e8faca1e5832cd2cba9c483017bff/transformed/versionedparcelable-1.1.1/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/b82c660d9ad1784a1567e2cd2c5b6c81/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/b82c660d9ad1784a1567e2cd2c5b6c81/transformed/jetified-lifecycle-viewmodel-savedstate-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4ef44362ac2ad0256baa36e70283e0b5/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/4ef44362ac2ad0256baa36e70283e0b5/transformed/lifecycle-viewmodel-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/1f26345fa989bd68ec7de7fd9e232438/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/1f26345fa989bd68ec7de7fd9e232438/transformed/cardview-1.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/79bcdb6f1c544967f6c1e2f1be89056f/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/79bcdb6f1c544967f6c1e2f1be89056f/transformed/lifecycle-runtime-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/16b3473cd7afec2685b03dd2cb29a408/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/16b3473cd7afec2685b03dd2cb29a408/transformed/jetified-savedstate-1.0.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/08e0309413e09ab6f72932e1913a6a78/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/08e0309413e09ab6f72932e1913a6a78/transformed/lifecycle-livedata-2.0.0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/aded14c334417e88330f752497179630/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.2.0] /Users/pankajstaple/.gradle/caches/transforms-3/aded14c334417e88330f752497179630/transformed/lifecycle-livedata-core-2.2.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/c87b12988b1fa6dc93d4ece4643224f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/c87b12988b1fa6dc93d4ece4643224f6/transformed/core-runtime-2.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:5:5-43
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/dc49f6ca4b0d1c6236fdff7c7188f31a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.facebook.fresco:fbcore:2.5.0] /Users/pankajstaple/.gradle/caches/transforms-3/dc49f6ca4b0d1c6236fdff7c7188f31a/transformed/jetified-fbcore-2.5.0/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/2a2e89481faba433107fb1bdea86de0d/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] /Users/pankajstaple/.gradle/caches/transforms-3/2a2e89481faba433107fb1bdea86de0d/transformed/jetified-annotation-experimental-1.1.0/AndroidManifest.xml:20:5-22:41
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pankajstaple/Desktop/DigContrax/android/app/src/main/AndroidManifest.xml
+queries
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:9:5-13:15
+intent#action:name:android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-12:18
+action#android.media.action.IMAGE_CAPTURE
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-73
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:21-70
+provider#androidx.core.content.FileProvider
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:18:9-26:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:22:13-47
+	android:authorities
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:20:13-60
+	android:exported
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:21:13-37
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:13-62
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:23:13-25:58
+	android:resource
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:17-55
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:24:17-67
+activity#com.yalantis.ucrop.UCropActivity
+ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:9-30:72
+	android:theme
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:30:13-69
+	android:name
+		ADDED from [:react-native-image-crop-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:29:13-60
+provider#com.imagepicker.ImagePickerProvider
+ADDED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-71
+	android:exported
+		ADDED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-image-picker] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-63
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-81
+	android:name
+		ADDED from [:react-native-maps] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-maps/lib/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-78
+provider#com.reactnativecommunity.webview.RNCWebViewFileProvider
+ADDED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-18:20
+	android:grantUriPermissions
+		ADDED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:14:13-47
+	android:authorities
+		ADDED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-64
+	android:exported
+		ADDED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [:react-native-webview] /Users/pankajstaple/Desktop/DigContrax/node_modules/react-native-webview/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-83
+uses-permission#com.android.vending.CHECK_LICENSE
+ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:5-73
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:10:22-70
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:5-68
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:19:22-65
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:5-76
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:28:22-73
+provider#com.RNFetchBlob.Utils.FileProvider
+ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:34:9-42:20
+	android:grantUriPermissions
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:38:13-47
+	android:authorities
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:36:13-60
+	android:exported
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:37:13-37
+	android:name
+		ADDED from [:rn-fetch-blob] /Users/pankajstaple/Desktop/DigContrax/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/release/AndroidManifest.xml:35:13-62
+meta-data#com.bumptech.glide.integration.okhttp3.OkHttpGlideModule
+ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:11:9-13:43
+	android:value
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:13:13-40
+	android:name
+		ADDED from [com.github.bumptech.glide:okhttp3-integration:4.12.0] /Users/pankajstaple/.gradle/caches/transforms-3/dcb5796d907dfe464bf1300a5b2093fb/transformed/jetified-okhttp3-integration-4.12.0/AndroidManifest.xml:12:13-84
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/da90ac8e67402cc5a9dcf497542edc37/transformed/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/4b451adc5673f537d224b28857792867/transformed/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+MERGED from [com.google.maps.android:android-maps-utils:0.5] /Users/pankajstaple/.gradle/caches/transforms-3/67d51262404313366e946c050b4e736d/transformed/jetified-android-maps-utils-0.5/AndroidManifest.xml:8:9-10:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:17.0.0] /Users/pankajstaple/.gradle/caches/transforms-3/82fe1b1819a82620d4ac795a64293f80/transformed/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58

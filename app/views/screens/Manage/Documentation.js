@@ -831,7 +831,7 @@ class Documentation extends Component {
     );
   }
 
-  uploadFirstStepHandler = () => {
+  uploadFirstStepHandler = async() => {
     if (this.mounted) {
       this.props.changeLoadingState(true);
       const isImage = this.state.changedImageUrl;
@@ -856,18 +856,21 @@ class Documentation extends Component {
           'image_desc',
           JSON.stringify(this.state.descriptionText),
         );
-        fetch(config.BASE_URL + 'save-documentation?api_token=' + token, {
+        await fetch(config.BASE_URL + 'save-documentation?api_token=' + token, {
           method: 'POST',
           headers: {
-            Authorization: 'Bearer ' + token,
+            // Authorization: 'Bearer ' + token,
             'Content-Type': 'multipart/form-data',
           },
           body: formdata,
         })
           .then(response => {
-            return response.json();
-          })
+            console.log('-------large image res----',JSON.stringify(response))
+            return response.json()
+          }
+          )
           .then(res => {
+            console.log('aaaaaaa-------',JSON.stringify(res))
             if (this.mounted) {
               if (res.status == 1) {
                 _showSuccessMessage(res.message);
@@ -882,6 +885,7 @@ class Documentation extends Component {
           .catch(err => {
             if (this.mounted) {
               _showErrorMessage('Something went wrong, Try again later.');
+              console.log(err,'upload image res----')
               this.props.changeLoadingState(false);
             }
           })
@@ -5185,7 +5189,8 @@ class Documentation extends Component {
             )}
           </View>
         )}
-        {this.state.showTab && (
+        {/* {this.state.showTab && ( */}
+   
           <TouchableOpacity
             style={styless.outer}
             onPress={() => this.goTabHandler(2)}>
@@ -5204,7 +5209,7 @@ class Documentation extends Component {
               </View>
             </View>
           </TouchableOpacity>
-        )}
+        {/* )} */}
         {this.state.activeTab == 2 && (
           <SafeAreaView forceInset={{top: 'always'}}>
             <View
@@ -5239,7 +5244,7 @@ class Documentation extends Component {
             </View>
           </SafeAreaView>
         )}
-        {this.state.showTab && (
+        {/* {this.state.showTab && ( */}
           <TouchableOpacity
             style={styless.outer}
             onPress={() => this.goTabHandler(3)}>
@@ -5262,7 +5267,7 @@ class Documentation extends Component {
               </View>
             </View>
           </TouchableOpacity>
-        )}
+        {/* )} */}
         {this.state.activeTab == 3 && (
           <View
             style={{
@@ -5557,7 +5562,7 @@ class Documentation extends Component {
           </View>
         )}
 
-        {this.state.showTab && (
+        {/* {this.state.showTab && ( */}
           <TouchableOpacity
             style={styless.outer}
             onPress={() => this.goTabHandler(5)}>
@@ -5577,7 +5582,7 @@ class Documentation extends Component {
               </View>
             </View>
           </TouchableOpacity>
-        )}
+        {/* )} */}
         {this.state.activeTab == 5 && (
           <View
             style={{

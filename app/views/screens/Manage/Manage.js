@@ -9,6 +9,8 @@ import {
   TouchableOpacity,
   Modal,
   Dimensions,
+  AsyncStorage,
+  AppState
 } from 'react-native';
 import {
   Container,
@@ -191,7 +193,27 @@ class Manage extends Component {
     });
 
     this.getCurrentLocation();
+
+
+
+
+
+      // Add an event listener to AppState changes
+    AppState.addEventListener('change', this.handleAppStateChange);
   }
+
+
+
+  handleBackButtonPress = () => {
+    // Implement your custom logic here
+    // For example, go back to the previous screen using React Navigation
+    this.props.navigation.goBack();
+  
+    // Return true to indicate that you've handled the back button press
+    return true;
+  };
+
+  
 
   checkTermsAccepted(user) {
     var usr = JSON.parse(user);
@@ -521,8 +543,9 @@ class Manage extends Component {
     ) 
       .then(
         response => response.json()) 
-      .then(res => {
+      .then(async res => {
         console.log(res, '---------RES');
+     
         if (this.mounted) {
           
           if (res?.status == 1) {
@@ -544,6 +567,12 @@ class Manage extends Component {
               page: page == 'all' ? 'all' : page + 1,
               totalpages: res?.totalpages || 0,
             });
+
+            console.log(res?.multi_lang,"====================multi lang")
+          
+               AsyncStorage.setItem('multi_lang',res?.multi_lang)
+           
+           
           } else if (res?.status == 0) {
             if (res?.error_type && res?.error_type == 'app_update') {
               _updateAppMessage(res?.message);
@@ -587,7 +616,52 @@ class Manage extends Component {
   componentWillUnmount() {
     //this.focusListener();
     this.mounted = false;
+
+
+
+      // Remove the event listener when the component unmounts
+      AppState.removeEventListener('change', this.handleAppStateChange);
+
+
   }
+
+
+
+
+  handleAppStateChange = async (nextAppState) => {
+    console.log('set app state---',nextAppState)
+    if (nextAppState === 'background' || nextAppState === 'inactive') {
+      // The app is going into the background or being closed
+      const timestamp = new Date().toISOString();
+      // Save the timestamp to AsyncStorage (or your preferred storage solution)
+      console.log('-----timestamp----',timestamp)
+      // await AsyncStorage.setItem('lastClosedTimestamp', timestamp);
+      const currentToken = config.currentToken;
+      // console.log(currentToken, 'wwww---currentToken',  config.BASE_URL);
+      const formdata = new FormData();
+      formdata.append('api_token', currentToken);
+      console.log('-----append----',formdata)
+      fetch('https://digcontrax.com/api/user-app-activity', {
+        method: 'POST',
+        headers: {
+          // Authorization: 'Bearer ' + token,
+          // 'Content-Type': 'multipart/form-data',
+        },
+        body: formdata,
+      })
+        .then(response =>  console.log('111111',response))    
+        .then(res => {
+          console.log('activity api data',res)
+        })
+        .catch(err => {
+          console.log(err, 'wwww---currentToken',  config.BASE_URL)
+        })
+    }
+  }
+
+
+
+
 
   clickTicket = ticket => {
     this.setState({ticketInfoModalVisible: false});
@@ -1425,7 +1499,7 @@ class Manage extends Component {
                     })}
                     {this.state.result.length == 0 && (
                       <Text style={{textAlign: 'center'}}>
-                        {console.log('-----this.state.filterRecord----',this.state.filterRecord)}
+                        {/* {console.log('-----this.state.filterRecord----',this.state.filterRecord)} */}
                         {this.state.filterRecord===true?this.props.t('loading records..'):this.props.t('No record found')}.
                       </Text>
                     )}
@@ -1535,6 +1609,7 @@ const styles = StyleSheet.create({
     alignSelf: 'center',
     color: '#fff',
     paddingBottom: 10,
+    fontSize: 14,
   },
   manageImage: {
     width: 40,

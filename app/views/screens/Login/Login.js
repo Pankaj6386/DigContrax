@@ -79,7 +79,7 @@ export default class Login extends Component {
     this.mounted = false;
   }
 
-  _sendLogin(data) {
+   _sendLogin(data) {
     this.setState({
       isloading: true,
     });
@@ -94,8 +94,8 @@ export default class Login extends Component {
         console.log('--------login api ----',JSON.stringify(response));
         return response.json();
       })
-      .then(res => {
-        console.log('login res**************-----------', res);
+    .then(async res => {
+        console.log('login res**************-----------', res.info.multi_lang);
         if (this.mounted) {
           this.setState({
             isloading: false,
@@ -105,6 +105,8 @@ export default class Login extends Component {
               isLoggedIn: true,
               userInfo: res.info,
             };
+            await AsyncStorage.setItem('multi_lang',res?.info?.multi_lang)
+            // console.log('11111222 res**************-----------', res.info.multi_lang);
             _storeUser(appState).then(user => {
               const resetAction = CommonActions.reset({
                 index: 0,
