@@ -77,6 +77,7 @@ class Common extends Component {
   }
 
   componentDidMount() {
+     
     this.mounted = true;
     this.getTicketExtraInfo(this.state.ticket.ticket);
   }
@@ -87,6 +88,10 @@ class Common extends Component {
 
   componentWillUnmount() {
     this.mounted = false;
+    console.log(this.props,"----props")
+    this.props.goBack()
+    console.log('-----------------------compentne will unmount')
+    
   }
 
   clickTicket = ticket => {
@@ -702,7 +707,7 @@ domStorageEnabled={true}
               style={{
                 flexWrap: 'wrap',
                 flexDirection: 'row',
-                height: 20,
+                // height: 20,
                 alignItems: 'center',
               }}>
               <Text
@@ -710,9 +715,9 @@ domStorageEnabled={true}
                   fontSize: 14,
                   color: '#fff',
                   opacity: 0.9,
-                  width: '50%',
+                  width: '50%', 
                 }}>
-                {this.props.t('SHOW TICKET INFO')}:{' '}
+                {this.props.t('SHOW TICKET INFO')}:
               </Text>
               <Text
                 onPress={() =>

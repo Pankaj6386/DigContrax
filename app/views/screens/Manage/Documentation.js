@@ -6944,11 +6944,11 @@ class UTILITYBOX extends Component {
             <View style={{width: '45%'}}>
               <Text style={styless.utilityLabel}>{this.props.propsVal.t('STATUS/UTILITY')}</Text>
             </View>
-            <View style={{width: '10%'}}>
+            <View style={{width: '5%'}}>
               <Text>{''}</Text>
             </View>
-            <View style={{width: '15%', alignItems: 'center'}}>
-              <Text style={[styless.utilityLabel, {textAlign: 'center'}]}>
+            <View style={{width: '22%', alignItems: 'flex-end'}}>
+              <Text style={[styless.utilityLabel, {textAlign: 'right'}]}>
               {this.props.propsVal.t('FILES')}
               </Text>
             </View>

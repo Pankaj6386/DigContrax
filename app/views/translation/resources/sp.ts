@@ -92,7 +92,7 @@ export default
   'Logout': 'Cerrar sesión',
   'MANAGE TICKETS': 'GESTIONAR BOLETOS',
   'Table View': 'Vista de Tabla',
-  'Map View': 'Vista de mapa',
+  'Map View': 'Vista de Mapa',
   'Cleared': 'Despejado',
   'Pending': 'Pendiente',
   'Expired': 'Caducado',
