@@ -67,12 +67,20 @@ export default class Login extends Component {
       email: '',
       password: '',
       isloading: false,
+      defaultLang:''
     };
   }
 
+  
   async componentDidMount() {
     this.mounted = true;
-    await AsyncStorage.setItem('addLangtype','en')
+
+     await AsyncStorage.getItem('@SelectLanguage').then((language) => {
+			// console.log(language,"----1- lanaguyafge comiung friom asaync stoegarghe")
+			// Use the retrieved language as the initial app language.
+			this.setState({defaultLang:language})
+		  });
+    
   }
 
   componentWillUnmount() {
@@ -107,6 +115,7 @@ export default class Login extends Component {
             };
             await AsyncStorage.setItem('multi_lang',res?.info?.multi_lang)
             // console.log('11111222 res**************-----------', res.info.multi_lang);
+
             _storeUser(appState).then(user => {
               const resetAction = CommonActions.reset({
                 index: 0,
@@ -121,6 +130,11 @@ export default class Login extends Component {
 							});*/
               this.props.navigation.dispatch(resetAction);
             });
+            if(this.state.defaultLang==null){
+              await AsyncStorage.setItem('addLangtype','en')
+            }else{
+              await AsyncStorage.setItem('addLangtype',this.state.defaultLang)
+            }
           } else if (res.status == 0) {
             _showErrorMessage(res.message, true);
           } else {

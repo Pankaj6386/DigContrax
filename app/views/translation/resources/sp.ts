@@ -287,6 +287,16 @@ export default
 'New Password':'Nueva Contraseña',
 'Confirm New Password':'Confirmar Nueva Contraseña',
 'UPDATE PASSWORD':'ACTUALIZAR CONTRASEÑA',
+'This ticket has already expired. If your work is completed, no further action is necessary. If you plan to dig again or are currently digging related to this ticket, you will need to contact 811 to establish a new ticket.':'Este boleto ya ha caducado. Si su trabajo está completo, no es necesario tomar ninguna medida adicional. Si planea excavar nuevamente o está actualmente realizando excavaciones relacionadas con este boleto, deberá ponerse en contacto con el número 811 para establecer un nuevo boleto.',
+'Your ticket is scheduled to expire. You have three options:':'Su boleto está programado para vencer. Tiene tres opciones:',
+'Let your ticket expire on':'Deja que tu boleto expire el',
+'because work is or will be completed before then':'porque el trabajo se completará o estará completado antes de entonces',
+'Contact 811 to renew your ticket beyond':'Contacta al 811 para renovar tu boleto más allá de...',
+'because work is expected to continue beyond the expiration date':'porque se espera que el trabajo continúe más allá de la fecha de vencimiento',
+'Contact 811 to close your ticket now because work is completed and no digging is expected at the site':'Contacta al 811 para cerrar tu boleto ahora porque el trabajo está completado y no se espera ninguna excavación en el sitio',
+'Ticket Expires in ':'El boleto vence en ',
+'This Ticket Expired':'Este boleto ha vencido',
+' Days':' Días'
 }
 
 

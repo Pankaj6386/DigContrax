@@ -239,7 +239,7 @@ class Common extends Component {
 
           
 
-domStorageEnabled={true}
+          domStorageEnabled={true}
         />
         
         {/* <WebView

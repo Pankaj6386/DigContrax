@@ -210,8 +210,17 @@ export default {
 'New Password':'New Password',
 'Confirm New Password':'Confirm New Password',
 'UPDATE PASSWORD':'UPDATE PASSWORD',
-'SHOW MAP':'SHOW MAP'
-
+'SHOW MAP':'SHOW MAP',
+'This ticket has already expired. If your work is completed, no further action is necessary. If you plan to dig again or are currently digging related to this ticket, you will need to contact 811 to establish a new ticket.':'This ticket has already expired. If your work is completed, no further action is necessary. If you plan to dig again or are currently digging related to this ticket, you will need to contact 811 to establish a new ticket.',
+'Your ticket is scheduled to expire. You have three options:':'Your ticket is scheduled to expire. You have three options:',
+'Let your ticket expire on':'Let your ticket expire on',
+'because work is or will be completed before then':'because work is or will be completed before then',
+'Contact 811 to renew your ticket beyond':'Contact 811 to renew your ticket beyond',
+"because work is expected to continue beyond the expiration date":'because work is expected to continue beyond the expiration date',
+'Contact 811 to close your ticket now because work is completed and no digging is expected at the site':'Contact 811 to close your ticket now because work is completed and no digging is expected at the site',
+'Ticket Expires in ':'Ticket Expires in ',
+'This Ticket Expired':'This Ticket Expired',
+' Days':' Days'
 
  
 

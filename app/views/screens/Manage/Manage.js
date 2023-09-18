@@ -567,8 +567,6 @@ class Manage extends Component {
               page: page == 'all' ? 'all' : page + 1,
               totalpages: res?.totalpages || 0,
             });
-
-            console.log(res?.multi_lang,"====================multi lang")
           
                AsyncStorage.setItem('multi_lang',res?.multi_lang)
            

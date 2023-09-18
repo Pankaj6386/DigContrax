@@ -33,14 +33,12 @@ class SideMenu extends Component {
   async componentDidMount(){		
 		
 		await AsyncStorage.getItem('addLangtype').then((language) => {
-			console.log(language,"----1- lanaguyafge comiung friom asaync stoegarghe")
 			// Use the retrieved language as the initial app language.
 			this.setState({isChecked:language})
-		  });
+		});
 
 
       await AsyncStorage.getItem('multi_lang').then((type) => {
-        console.log(type,"----1- tttttttttyyyyyyyyyppppppppeeeeeee")
         // Use the retrieved language as the initial app language.
         // i18n.changeLanguage(language);
         this.setState({langOption:type})
@@ -90,6 +88,8 @@ class SideMenu extends Component {
         index: 0,
         routes: [{name: 'Auth'}],
       });
+      // AsyncStorage.clear().then(() => console.log('------Cleared'))
+
       /* old code
 			const resetAction = StackActions.reset({
 				index: 0, 
@@ -279,7 +279,7 @@ class SideMenu extends Component {
                 <Text style={styles.btext}>{t('Change Password')}</Text>
               </TouchableOpacity>
             </View>
-            <View style={styles.screenStyle}>
+            {/* <View style={styles.screenStyle}>
             {this.state.langOption==1 &&  <TouchableOpacity
                 onPress={() => this.setModalVisible(!this.state.modalVisible)}>
                 <Text style={styles.btext}>{t('Change Language')}</Text>
@@ -301,7 +301,7 @@ class SideMenu extends Component {
                   </View>
                 </Modal>
               </View>
-            </View>
+            </View> */}
             <View style={styles.screenStyle}>
               <TouchableOpacity onPress={() => this.logout()}>
                 {/* <Text style={styles.btext}>Logout</Text> */}
