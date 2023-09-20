@@ -39,6 +39,7 @@ class App extends React.Component {
 	render() {
 		return (
 			<Root>
+				{/* <Text style={{marginTop:70}}>asda</Text> */}
 				<AppStack />
 			</Root>
 		);

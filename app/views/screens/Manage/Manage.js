@@ -406,10 +406,12 @@ class Manage extends Component {
 
   _initTicketsList() {
     if (config.hasToken) {
+      // console.log('Api init ticket status-----',Date())
       var self = this;
       _getallticketstatus(
         config.BASE_URL + 'ticket_status?api_token=' + config.currentToken,
         function (res) {
+         
           if (res.status == 1) {
             self.setState({
               ticketStatus: res.data,
@@ -479,8 +481,9 @@ class Manage extends Component {
   }
 
   _fetchTickets(token) {
+    // console.log('Api init Allticket status-----232',Date())
     const currentToken = config.currentToken;
-    console.log(currentToken, '---currentToken');
+  
     const page = this.state.page;
     if (this.mounted) {
       this.setState({
@@ -495,26 +498,26 @@ class Manage extends Component {
     const status = this.state.clickedBox;
     const hide_expired = this.state.hide_expired ? 1 : 0;
 
-    console.log(
-      config.BASE_URL +
-        'alltickets?api_token=' +
-        currentToken +
-        '&app_version=' +
-        app_version +
-        '&sort_by=' +
-        sort_by +
-        '&sort_order=' +
-        sort_order +
-        '&page=' +
-        page +
-        '&search_key=' +
-        searchString +
-        '&status=' +
-        status +
-        '&hide_expired=' +
-        hide_expired,
-      '-----------url',
-    );
+    // console.log(
+    //   config.BASE_URL +
+    //     'alltickets?api_token=' +
+    //     currentToken +
+    //     '&app_version=' +
+    //     app_version +
+    //     '&sort_by=' +
+    //     sort_by +
+    //     '&sort_order=' +
+    //     sort_order +
+    //     '&page=' +
+    //     page +
+    //     '&search_key=' +
+    //     searchString +
+    //     '&status=' +
+    //     status +
+    //     '&hide_expired=' +
+    //     hide_expired,
+    //   '-----------url',
+    // );
     
     fetch(
       config.BASE_URL +
@@ -544,8 +547,7 @@ class Manage extends Component {
       .then(
         response => response.json()) 
       .then(async res => {
-        console.log(res, '---------RES');
-     
+
         if (this.mounted) {
           
           if (res?.status == 1) {
@@ -1189,9 +1191,10 @@ class Manage extends Component {
                   flexDirection: 'row',
                   justifyContent: 'flex-start',
                   marginTop: 5,
+             
                 }}
                 onPress={() => this.filterExpired()}>
-                <View style={{marginRight: 5}}>
+                <View style={{}}>
                   <CheckBox
                     checked={this.state.hide_expired}
                     style={{left: 0}}
@@ -1202,11 +1205,13 @@ class Manage extends Component {
                 {/*<Icon name={(this.state.hide_expired) ? 'checkbox' : 'md-square-outline'} />*/}
                 <Text
                   style={{
+                     left:3,
                     fontSize: 14,
                     fontStyle: 'italic',
-                    textAlign: 'center',
+                    textAlign: 'left',  
+                    width:'90%'
                   }}>
-                  {this.props.t('Check to hide expired tickets from the')}{' '}
+                  {this.props.t('Check to hide expired tickets from the')}
                   {activeView ==  `${this.props.t('map')}` ? `${this.props.t('map')}` :  `${this.props.t('list')}`} {this.props.t('below')}
                 </Text>
               </TouchableOpacity>
@@ -1439,12 +1444,13 @@ class Manage extends Component {
                                 resizeMode="contain"
                               />
                             </View>
-                            <View style={{flex: 1, paddingLeft: 5}}>
+                            <View style={{flex: 1, paddingLeft:2}}>
                               <Text
                                 style={{
                                   fontSize: 13,
                                   textAlign: 'left',
-                                  fontFamily: 'OpenSans-Bold',
+                                  fontFamily: 'OpenSans-Regular',
+                                  fontWeight:'600'
                                 }}>
                                 {key.ticket}
                               </Text>

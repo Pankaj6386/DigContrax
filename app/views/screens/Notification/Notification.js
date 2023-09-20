@@ -403,18 +403,22 @@ class Notification extends Component {
                     resizeMode="contain"
                   />
                 </View>
-                <View style={{ flex: 1, paddingLeft: 5 }}>
+                <View style={{ flex: 1, paddingLeft: 2 }}>
                   <Text
                     style={{
-                      fontSize: 14,
-                      textAlign: "left",
-                      fontFamily: "OpenSans-Bold",
+                      // fontSize: 13,
+                      // textAlign: "left",
+                      // fontFamily: "OpenSans-Bold",
+                      fontSize: 13,
+                      textAlign: 'left',
+                      fontFamily: 'OpenSans-Regular',
+                      fontWeight:'700'
                     }}>
                     {key.ticket_no}
                   </Text>
                 </View>
                 <View style={{ flex: 1 }}>
-                  <Text style={{ fontSize: 14, textAlign: "right" }}>
+                  <Text style={{ fontSize: 13, textAlign: "right" }}>
                     {key.job_name}
                   </Text>
                 </View>
@@ -422,7 +426,7 @@ class Notification extends Component {
                   {key.days_left == "Expired" ? (
                     <Text
                       style={{
-                        fontSize: 14,
+                        fontSize: 13,
                         textAlign: "right",
                         fontFamily: "OpenSans-Regular",
                         color: "red",
@@ -432,7 +436,7 @@ class Notification extends Component {
                   ) : (
                     <Text
                       style={{
-                        fontSize: 14,
+                        fontSize: 13,
                         textAlign: "right",
                         fontFamily: "OpenSans-Regular",
                       }}>

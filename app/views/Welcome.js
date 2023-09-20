@@ -30,6 +30,8 @@ import {
   _updateAppMessage,
 } from 'assets';
 import {StackActions, CommonActions} from '@react-navigation/native';
+import { CirclesLoader, PulseLoader, TextLoader, OpacityDotsLoader} from 'react-native-indicator';
+
 const app_version = config?.app_version;
 
 class Welcome extends React.Component {
@@ -57,7 +59,7 @@ class Welcome extends React.Component {
 							CommonActions.navigate({ routeName: 'Dashboard' })
 						],
 					});*/
-          this.props.navigation.dispatch(resetAction);
+          this.props.navigation.dispatch(resetAction);    
         } else {
           const resetAction = CommonActions.reset({
             index: 0,
@@ -71,9 +73,9 @@ class Welcome extends React.Component {
 							CommonActions.navigate({ routeName: 'Auth' })
 						],
 					});*/
-          this.props.navigation.dispatch(resetAction);
+          this.props.navigation.dispatch(resetAction);  
         }
-      }, 2000);
+      }, 500);
     });
   };
 
@@ -125,12 +127,18 @@ class Welcome extends React.Component {
                 resizeMode="contain"
               />
             </View>
-            <View>
+            <View> 
               <Text style={styles.btext}>
                 You are one step closer to digging safer than ever before...
               </Text>
+           
+             
+              
             </View>
-            <View
+            <View style={{alignItems:'center',top:30}}>
+            <CirclesLoader  color={'#fff'}/> 
+            </View>
+            {/* <View
               style={{
                 alignItems: 'center',
                 justifyContent: 'center',
@@ -141,7 +149,7 @@ class Welcome extends React.Component {
                 resizeMode="contain"
                 style={{width: 100}}
               />
-            </View>
+            </View> */}
           </View>
         </View>
       </SafeAreaView>
