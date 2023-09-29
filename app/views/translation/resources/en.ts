@@ -61,7 +61,7 @@ export default {
 'Call 811':'Call 811',
 'Email 811':'Email 811',
 'Call DigContrax':'Call DigContrax',
-'Email DigContrax':'Email Digcontrax',
+'Email DigContrax':'Email DigContrax',
 'Training':'Training',
 'Excavation Law':'Excavation Law',
 'California':'California',

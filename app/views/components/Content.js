@@ -7,6 +7,7 @@ export default class Content extends Component {
     const {children, padder} = this.props;
     const containerStyle = {
       flex: 1,
+     
     };
     const variables = {
       contentPadding: 10,
@@ -14,6 +15,7 @@ export default class Content extends Component {
     return (
       <SafeAreaView style={containerStyle}>
         <KeyboardAwareScrollView
+        
           automaticallyAdjustContentInsets={false}
           resetScrollToCoords={{x: 0, y: 0}}
           keyboardShouldPersistTaps={'handled'}

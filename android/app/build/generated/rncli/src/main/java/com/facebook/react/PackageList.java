@@ -11,6 +11,8 @@ import com.facebook.react.shell.MainReactPackage;
 import java.util.Arrays;
 import java.util.ArrayList;
 
+// @react-native-community/art
+import com.reactnativecommunity.art.ARTPackage;
 // @react-native-community/datetimepicker
 import com.reactcommunity.rndatetimepicker.RNDateTimePickerPackage;
 // @react-native-community/geolocation
@@ -39,6 +41,8 @@ import com.swmansion.reanimated.ReanimatedPackage;
 import com.th3rdwave.safeareacontext.SafeAreaContextPackage;
 // react-native-screens
 import com.swmansion.rnscreens.RNScreensPackage;
+// react-native-splash-screen
+import org.devio.rn.splashscreen.SplashScreenReactPackage;
 // react-native-vector-icons
 import com.oblador.vectoricons.VectorIconsPackage;
 // react-native-webview
@@ -90,6 +94,7 @@ public class PackageList {
   public ArrayList<ReactPackage> getPackages() {
     return new ArrayList<>(Arrays.<ReactPackage>asList(
       new MainReactPackage(mConfig),
+      new ARTPackage(),
       new RNDateTimePickerPackage(),
       new GeolocationPackage(),
       new RNCMaskedViewPackage(),
@@ -104,6 +109,7 @@ public class PackageList {
       new ReanimatedPackage(),
       new SafeAreaContextPackage(),
       new RNScreensPackage(),
+      new SplashScreenReactPackage(),
       new VectorIconsPackage(),
       new RNCWebViewPackage(),
       new RNFetchBlobPackage()

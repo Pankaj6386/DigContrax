@@ -1,3 +1,7 @@
+
+
+
+
 import React, {Component} from 'react';
 import {
   StyleSheet,
@@ -32,6 +36,7 @@ import {
 import {StackActions, CommonActions} from '@react-navigation/native';
 import { CirclesLoader, PulseLoader, TextLoader, OpacityDotsLoader} from 'react-native-indicator';
 
+
 const app_version = config?.app_version;
 
 class Welcome extends React.Component {
@@ -46,36 +51,23 @@ class Welcome extends React.Component {
 
   checkUserIsLoggedIn = function () {
     _retrieveUser().then(user => {
-      this.timeoutHandle = setTimeout(() => {
+     
         if (user !== null) {
           const resetAction = CommonActions.reset({
             index: 0,
             routes: [{name: 'Dashboard'}],
           });
-          /* old codeconst resetAction = StackActions.reset({
-						index: 0, 
-						key: null,
-						actions: [
-							CommonActions.navigate({ routeName: 'Dashboard' })
-						],
-					});*/
+
           this.props.navigation.dispatch(resetAction);    
         } else {
           const resetAction = CommonActions.reset({
             index: 0,
             routes: [{name: 'Auth'}],
           });
-          /* old code
-					const resetAction = StackActions.replace({
-						index: 0, 
-						key: null,
-						actions: [
-							CommonActions.navigate({ routeName: 'Auth' })
-						],
-					});*/
+      
           this.props.navigation.dispatch(resetAction);  
         }
-      }, 500);
+     
     });
   };
 
@@ -131,25 +123,11 @@ class Welcome extends React.Component {
               <Text style={styles.btext}>
                 You are one step closer to digging safer than ever before...
               </Text>
-           
-             
-              
             </View>
             <View style={{alignItems:'center',top:30}}>
             <CirclesLoader  color={'#fff'}/> 
             </View>
-            {/* <View
-              style={{
-                alignItems: 'center',
-                justifyContent: 'center',
-                marginTop: 50,
-              }}>
-              <Image
-                source={image.homeLoading}
-                resizeMode="contain"
-                style={{width: 100}}
-              />
-            </View> */}
+            
           </View>
         </View>
       </SafeAreaView>
@@ -160,7 +138,6 @@ class Welcome extends React.Component {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    //textAlign: 'center',
     alignItems: 'center',
     backgroundColor: '#5e5e5e',
     flexDirection: 'row',

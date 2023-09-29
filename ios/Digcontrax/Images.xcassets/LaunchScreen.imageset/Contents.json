@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "iPhone 14 Plus - 1.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "iPhone 14 Plus - 2.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "iPhone 14 Plus - 3.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

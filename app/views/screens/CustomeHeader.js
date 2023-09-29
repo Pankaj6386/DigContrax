@@ -59,6 +59,20 @@ export default class CustomeHeader extends Component {
     this.setState({ isChecked: check });
   };
 
+  headerLanguageConverter=async()=>{
+    if(this.state.isChecked=="en"){
+      i18n.changeLanguage("sp");
+      this.handleCheckboxToggle("sp"),
+        await AsyncStorage.setItem("@SelectLanguage", "sp");
+      await AsyncStorage.setItem("addLangtype", "sp");
+    }else if(this.state.isChecked=="sp"){
+      i18n.changeLanguage("en");
+      this.handleCheckboxToggle("en"),
+        await AsyncStorage.setItem("@SelectLanguage", "en");
+      await AsyncStorage.setItem("addLangtype", "en");
+    }
+   return;
+  }
   render() {
     const { navigate } = this.props.navigation;
     return (
@@ -73,7 +87,8 @@ export default class CustomeHeader extends Component {
               />
             </View>
           </TouchableOpacity>
-          <View style={{ flex: 1, marginTop: -10 }}>
+          <View style={{ flex: 1, marginTop: -10,}}>
+            {/* <TouchableOpacity activeOpacity={1} onPress={()=>this.headerLanguageConverter()}> */}
             <Image
               source={image.taglogo}
               style={{
@@ -83,8 +98,10 @@ export default class CustomeHeader extends Component {
               }}
               resizeMode="contain"
             />
+            {/* </TouchableOpacity> */}
           </View>
-          <View style={{ alignSelf: "center", paddingRight: 10 }}>
+
+          {/* <View style={{ alignSelf: "center", paddingRight: 10 }}>
             <TouchableOpacity
               style={{
                 backgroundColor:
@@ -131,10 +148,10 @@ export default class CustomeHeader extends Component {
                 ESP
               </Text>
             </TouchableOpacity>
-          </View>
-          {/* <TouchableOpacity  onPress={()=> this.props.navigation.navigate('Account')} style={{alignSelf:'center', paddingRight: 10}}>
+          </View> */}
+          <TouchableOpacity  onPress={()=> this.props.navigation.navigate('Account')} style={{alignSelf:'center', paddingRight: 10}}>
 						<Image source={image.user} resizeMode='contain' />
-					</TouchableOpacity> */}
+					</TouchableOpacity>
         </View>
       </View>
     );

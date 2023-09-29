@@ -292,13 +292,13 @@ class Notification extends Component {
         <H1
           style={{
             fontFamily: "RacingSansOne-Regular",
-            marginTop: 30,
-            marginBottom: 30,
+            marginTop: 20,
+            marginBottom: 7,
           }}>
           {this.props.t("NOTIFICATIONS")}
         </H1>
-
-        <View>
+        {/* comment code check hide expired tickets */}
+        {/* <View>
           <TouchableOpacity
             style={{
               flexDirection: "row",
@@ -326,7 +326,7 @@ class Notification extends Component {
               )}
             </Text>
           </TouchableOpacity>
-        </View>
+        </View> */}
         <View
           style={{
             flexDirection: "row",
@@ -488,7 +488,7 @@ class Notification extends Component {
                   ? `${this.porps.textAlign("This Ticket Expired")}`
                   : `${this.props.t("Ticket Expires in ")}` + ticket.days_left + `${this.props.t(" Days")}`}
               </Text>
-              <Text style={{ fontFamily: "OpenSans-Regular", fontSize: 26 }}>
+              <Text style={{ fontFamily: "OpenSans-Regular", fontSize: 24 }}>
                 # {ticket.ticket_no}
               </Text>
             </View>

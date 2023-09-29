@@ -1,8 +1,9 @@
-import React, { Component } from 'react';
+import React, { Component ,Suspense} from 'react';
 import { Toast, Root } from 'native-base';
 import { AppStack } from './Route';
 import {  Text, TextInput, View,AsyncStorage }  from 'react-native';
 import i18n from 'i18next';
+import SplashScreen from 'react-native-splash-screen';
 
 //navigator.geolocation = require('@react-native-community/geolocation');
 
@@ -14,6 +15,7 @@ class App extends React.Component {
   	}
 	
 	async componentDidMount(){		
+		SplashScreen.hide();
 		this.mounted = true;
 
 		Text.defaultProps = {};
@@ -28,7 +30,7 @@ class App extends React.Component {
 			console.log(language,"----1- lanaguyafge comiung friom asaync stoegarghe")
 			// Use the retrieved language as the initial app language.
 			i18n.changeLanguage(language);
-		  });
+		});
 	}
 	
 	componentWillUnmount(){
@@ -38,8 +40,8 @@ class App extends React.Component {
 	
 	render() {
 		return (
+		
 			<Root>
-				{/* <Text style={{marginTop:70}}>asda</Text> */}
 				<AppStack />
 			</Root>
 		);

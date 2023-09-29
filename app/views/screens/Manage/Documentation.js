@@ -622,6 +622,7 @@ class Documentation extends Component {
             this.setState({
               inCompleteStepMessage: 'Step 2 is not completed yet.',
             });
+            // console.log('res.data.data-----',JSON.stringify(res.data.data))
             if (res.data.data.length == completeStatusCount) {
               this.setState({stepTwoCompleted: true});
               this.setState({

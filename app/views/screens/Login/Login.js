@@ -222,11 +222,14 @@ export default class Login extends Component {
           <View
             style={{
               flex: 1,
+              // backgroundColor:'red',
+              marginTop:30,
+              // top:30,
               flexDirection: 'row',
               justifyContent: 'center',
               alignItems: 'center',
             }}>
-            <Content padder={true}>
+            <Content padder={true} scrollEnabled={false}>
               <H1
                 style={{fontFamily: 'RacingSansOne-Regular', marginBottom: 10}}>
                 LOGIN
@@ -292,6 +295,7 @@ export default class Login extends Component {
               <View style={styles.innerSecond}>
                 <Button
                   block
+                  large
                   style={{backgroundColor: '#6F6F6F'}}
                   onPress={() =>
                     this.onPressCall(
@@ -323,7 +327,7 @@ export default class Login extends Component {
               position: 'absolute',
               left: 0,
               right: 0,
-              bottom: 0,
+              bottom: 20,
               backgroundColor: '#FFBC42',
               padding: 20,
               flexDirection: 'row',

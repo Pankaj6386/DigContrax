@@ -94,7 +94,7 @@ export default  class Support extends Component {
 				<CustomeHeader {...this.props}/>
 				<Content>
 					<View style={{margin:10}}>
-						<H1 style={{fontFamily:'RacingSansOne-Regular', marginTop: 30, marginBottom: 30}}>SUPPORT</H1>
+						<H1 style={{fontFamily:'RacingSansOne-Regular', marginTop: 20, marginBottom: 10}}>SUPPORT</H1>
 						<View style={{ flexDirection: "row" }}>
 							<TouchableOpacity onPress={() => this.changetab('faq')} style={(activeTab == 'faq') ? styles.reqTouchActive : styles.reqTouch} >
 								<View style={styles.reqTouchV} >

@@ -85,6 +85,7 @@ const image = {
   usericonActive: require('./images/usericonActive.png'),
   flag: require('./images/flag.png'),
   spain: require('./images/spain.png'),
+  screen: require('./images/screen.png'),
 };
 
 /* const Loading =  (
